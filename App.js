@@ -6,6 +6,7 @@
  * @flow
  */
 
+import "./src/config/ReactotronConfig";
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
@@ -20,8 +21,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Boilerplate React Native!</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+        <Text style={styles.welcome}>Welcome to Boilerplate RN!</Text>
       </View>
     );
   }

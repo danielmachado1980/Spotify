@@ -7,9 +7,11 @@
  * @flow
  */
 
-import './src/config/ReactotronConfig';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+
+import './src/config/ReactotronConfig';
+import './src/config/DevToolsConfig';
 
 const styles = StyleSheet.create({
   container: {

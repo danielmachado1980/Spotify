@@ -13,3 +13,6 @@ Projeto base de configuração RN
    "editor.formatOnSave": true,
    "prettier.eslintIntegration": true,
    "eslint.autoFixOnSave": true
+9. Instalação e configuração DevTools (necessário atualizar dispositivo físico para conectar).
+10. Instalação e configuração Babel Root.
+11. Instalação eslint babel root import para resolver caminho.

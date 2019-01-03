@@ -13,6 +13,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import './src/config/ReactotronConfig';
 import './src/config/DevToolsConfig';
 
+import Home from '~/pages';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -30,6 +32,7 @@ const styles = StyleSheet.create({
 const App = () => (
   <View style={styles.container}>
     <Text style={styles.welcome}>Welcome to Boilerplate RN!</Text>
+    <Home />
   </View>
 );
 

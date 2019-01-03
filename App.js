@@ -18,10 +18,14 @@ const instructions = Platform.select({
 });
 
 export default class App extends Component {
+  componentDidMount() {
+    console.tron.log('Testando debug... Reactotron de novo!');
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Boilerplate RN!</Text>
+        <Text style={styles.welcome}>Welcome to Boilerplate RN!!!</Text>
       </View>
     );
   }

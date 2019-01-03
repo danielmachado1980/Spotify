@@ -1,5 +1,4 @@
 /* eslint-disable react-native/no-color-literals */
-/* eslint-disable object-curly-newline */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -9,7 +8,7 @@
  */
 
 import './src/config/ReactotronConfig';
-import React, { Component } from 'react';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -26,17 +25,10 @@ const styles = StyleSheet.create({
   },
 });
 
-export default class App extends Component {
-  componentDidMount() {
-    // eslint-disable-next-line no-console
-    console.tron.log('Testando debug... Reactotron de novo!');
-  }
+const App = () => (
+  <View style={styles.container}>
+    <Text style={styles.welcome}>Welcome to Boilerplate RN!</Text>
+  </View>
+);
 
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Boilerplate RN!</Text>
-      </View>
-    );
-  }
-}
+export default App;

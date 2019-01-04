@@ -1,4 +1,3 @@
-/* eslint-disable react-native/no-color-literals */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -15,12 +14,14 @@ import './src/config/DevToolsConfig';
 
 import Home from '~/pages';
 
+const bgColor = '#F5FCFF';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: bgColor,
   },
   welcome: {
     fontSize: 20,

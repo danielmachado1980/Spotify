@@ -1,6 +1,6 @@
 # BoilerplateRN
 
-Projeto base de configuração RN
+## Projeto base de configuração RN
 
 1. Configuração EditorConfig (encode e quebra de linha configurados no VSCode).
 2. Instalação Prop Types com yarn add prop-types.

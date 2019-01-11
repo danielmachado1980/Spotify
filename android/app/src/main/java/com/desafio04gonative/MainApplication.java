@@ -1,4 +1,4 @@
-package com.boilerplatern;
+package com.desafio04gonative;
 
 import android.app.Application;
 

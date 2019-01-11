@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
 
 const App = () => (
   <View style={styles.container}>
-    <Text style={styles.welcome}>Welcome to Boilerplate RN!</Text>
+    <Text style={styles.welcome}>Bem-vindo ao Desafio04!</Text>
     <Home />
   </View>
 );

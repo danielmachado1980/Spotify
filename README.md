@@ -1,21 +1,3 @@
-# BoilerplateRN
+# Spotify Clone RN
 
-## Projeto base de configuração RN
-
-1. Configuração EditorConfig (encode e quebra de linha configurados no VSCode).
-2. Instalação Prop Types com yarn add prop-types.
-3. Instalação e configuração do Reactotron (Release 2.6.0), necessário adb reverse tcp:9090 tcp:9090 para conectar.
-4. Instalação e configuração do eslint (dependência de desenvolvimento), Instalation Guide AirBnB.
-5. Instalação plugins babel-eslint e eslint-plugin-react-native como dependência de desenvolvimento.
-6. Configurar arquivo .eslintrc.json.
-7. Instalação da extensão ESLint e Prettier Code Formatter.
-8. Detalhes das configurações de usuário no VSCode:
-   "editor.formatOnSave": true,
-   "prettier.eslintIntegration": true,
-   "eslint.autoFixOnSave": true
-9. Instalação e configuração DevTools (necessário atualizar dispositivo físico para conectar).
-10. Instalação e configuração Babel Root.
-11. Instalação eslint babel root import para resolver caminho.
-"# Desafio04Gonative" 
-"# Spotify" 
-"# Spotify" 
+1. Instalação redux e react-redux

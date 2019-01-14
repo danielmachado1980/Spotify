@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
 
 const App = () => (
   <View style={styles.container}>
-    <Text style={styles.welcome}>Bem-vindo ao Spotify!</Text>
+    <Text style={styles.welcome}>Bem-vindo ao Spotify App!</Text>
     <Home />
   </View>
 );

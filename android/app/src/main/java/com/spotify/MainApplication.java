@@ -1,4 +1,4 @@
-package com.desafio04gonative;
+package com.spotify;
 
 import android.app.Application;
 

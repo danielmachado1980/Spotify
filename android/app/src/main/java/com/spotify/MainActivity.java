@@ -1,4 +1,4 @@
-package com.desafio04gonative;
+package com.spotify;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "Desafio04Gonative";
+        return "Spotify";
     }
 }

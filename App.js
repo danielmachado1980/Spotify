@@ -6,28 +6,28 @@
  * @flow
  */
 
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
-import "./src/config/ReactotronConfig";
-import "./src/config/DevToolsConfig";
+import './src/config/ReactotronConfig';
+import './src/config/DevToolsConfig';
 
-import Home from "~/pages";
+import Home from '~/pages';
 
-const bgColor = "#F5FCFF";
+const bgColor = '#F5FCFF';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: bgColor
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: bgColor,
   },
   welcome: {
     fontSize: 20,
-    textAlign: "center",
-    margin: 10
-  }
+    textAlign: 'center',
+    margin: 10,
+  },
 });
 
 const App = () => (

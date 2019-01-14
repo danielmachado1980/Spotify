@@ -18,3 +18,4 @@
 11. Instalação eslint babel root import para resolver caminho.
 "# Desafio04Gonative" 
 "# Spotify" 
+"# Spotify" 

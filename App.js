@@ -7,34 +7,18 @@
  */
 
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Provider } from 'react-redux';
 
 import './src/config/ReactotronConfig';
 import './src/config/DevToolsConfig';
+import store from './src/store';
 
-import Home from '~/pages';
-
-const bgColor = '#F5FCFF';
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: bgColor,
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-});
+import TodoList from '~/pages/TodoList';
 
 const App = () => (
-  <View style={styles.container}>
-    <Text style={styles.welcome}>Bem-vindo ao Spotify App!</Text>
-    <Home />
-  </View>
+  <Provider store={store}>
+    <TodoList />
+  </Provider>
 );
 
 export default App;

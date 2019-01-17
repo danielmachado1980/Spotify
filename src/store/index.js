@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
-import reducers from './reducers';
+import reducers from './ducks';
 
 const middleware = [];
 

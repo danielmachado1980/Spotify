@@ -7,7 +7,7 @@ import {
  View, Text, StyleSheet, TouchableOpacity 
 } from 'react-native';
 
-import * as TodoActions from '~/store/actions/todos';
+import { Creators as TodoActions } from '~/store/ducks/todos';
 
 const styles = StyleSheet.create({
   container: {

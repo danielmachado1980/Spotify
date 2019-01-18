@@ -13,11 +13,11 @@ import './src/config/ReactotronConfig';
 import './src/config/DevToolsConfig';
 import store from './src/store';
 
-import Home from '~/pages';
+import Routes from '~/routes';
 
 const App = () => (
   <Provider store={store}>
-    <Home />
+    <Routes />
   </Provider>
 );
 

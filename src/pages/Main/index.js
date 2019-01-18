@@ -1,12 +1,13 @@
 import React from 'react';
+
 import { View, Text } from 'react-native';
 
 import styles from './styles';
 
-const Home = () => (
+const Main = () => (
   <View style={styles.container}>
-    <Text>Olá Home</Text>
+    <Text>Página Main</Text>
   </View>
 );
 
-export default Home;
+export default Main;

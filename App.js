@@ -13,11 +13,11 @@ import './src/config/ReactotronConfig';
 import './src/config/DevToolsConfig';
 import store from './src/store';
 
-import TodoList from '~/pages/TodoList';
+import Home from '~/pages';
 
 const App = () => (
   <Provider store={store}>
-    <TodoList />
+    <Home />
   </Provider>
 );
 

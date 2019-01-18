@@ -1,12 +1,15 @@
 import React from 'react';
 
-import { View, Text } from 'react-native';
+import { View, Text, StatusBar } from 'react-native';
 
 import styles from './styles';
 
 const Main = () => (
   <View style={styles.container}>
-    <Text>Página Main</Text>
+    <StatusBar backgroundColor="blue" barStyle="light-content" />
+    <View>
+      <Text>Página Main</Text>
+    </View>
   </View>
 );
 

@@ -1,16 +1,24 @@
 import React from 'react';
 
-import { View, Text, StatusBar } from 'react-native';
+import { View, Text } from 'react-native';
 
 import styles from './styles';
+import { colors } from '~/styles';
 
 const Main = () => (
   <View style={styles.container}>
-    <StatusBar backgroundColor="blue" barStyle="light-content" />
     <View>
       <Text>Página Main</Text>
     </View>
   </View>
 );
+
+Main.navigationOptions = {
+  title: 'Main',
+  headerStyle: {
+    backgroundColor: colors.secundary,
+  },
+  headerTintColor: colors.white,
+};
 
 export default Main;

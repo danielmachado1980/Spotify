@@ -27,6 +27,9 @@ const styles = StyleSheet.create({
     color: colors.dark,
     marginTop: 3,
   },
+  more: {
+    color: colors.regular,
+  },
 });
 
 export default styles;

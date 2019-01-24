@@ -1,14 +1,14 @@
-import { StyleSheet } from "react-native";
-import { colors, metrics } from "~/styles";
+import { StyleSheet } from 'react-native';
+import { colors, metrics } from '~/styles';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.primary
+    backgroundColor: colors.primary,
   },
   headerRight: {
-    marginRight: metrics.basePadding
-  }
+    marginRight: metrics.basePadding,
+  },
 });
 
 export default styles;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
- View, Text, StatusBar, TouchableOpacity 
+ View, Text, StatusBar, TouchableOpacity
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';

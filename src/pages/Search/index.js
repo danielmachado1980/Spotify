@@ -1,13 +1,21 @@
-import React from "react";
+import React from 'react';
 
-import { View, Text } from "react-native";
+import { View, Text } from 'react-native';
+import { colors } from '~/styles';
 
-import styles from "./styles";
+import styles from './styles';
 
 const Search = () => (
   <View style={styles.container}>
-    <Text>Página de Pesquisa</Text>
+    <Text />
   </View>
 );
+
+Search.navigationOptions = () => ({
+  title: 'Pesquisa',
+  headerStyle: {
+    backgroundColor: colors.white,
+  },
+});
 
 export default Search;

@@ -1,25 +1,26 @@
-import { createAppContainer, createStackNavigator } from "react-navigation";
-import { colors } from "~/styles";
+import { createAppContainer, createStackNavigator } from 'react-navigation';
+import { colors } from '~/styles';
 
-import Main from "~/pages/Main";
-import Search from "~/pages/Search";
+import Main from '~/pages/Main';
+import Search from '~/pages/Search';
 
 const Routes = createAppContainer(
   createStackNavigator(
     {
       Main: { screen: Main },
-      Search: { screen: Search }
+      Search: { screen: Search },
     },
     {
       navigationOptions: {
         headerStyle: {
-          backgroundColor: colors.primary
+          backgroundColor: colors.secundary,
+          borderBottomWidth: 0,
         },
         headerTintColor: colors.white,
-        headerBackTitle: null
-      }
-    }
-  )
+        headerBackTitle: null,
+      },
+    },
+  ),
 );
 
 export default Routes;
